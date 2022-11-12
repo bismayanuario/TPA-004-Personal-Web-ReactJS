@@ -1,0 +1,19 @@
+
+.navbar {
+  background-color: rgb(33, 33, 33)!important;
+}
+.navbar-brand img{
+  width: 30%;
+}
+
+.navbar li {
+  padding: 0px 20px;
+}
+.navbar li a{
+  color: white !important;
+  font-weight: bold;
+}
+
+.navbar li a:hover{
+  color: navy !important;
+}

@@ -1,0 +1,39 @@
+/* Blog */
+.blog {
+    background-color: black;
+    color: white;
+  }
+  
+  hr {
+    height: 2px;
+    background-image: -webkit-linear-gradient(left, rgb(0, 0, 0), rgb(255, 255, 255), rgb(255, 255, 255), rgb(0, 0, 0));
+  }
+  
+  .blogText {
+    text-align: center;
+
+  }
+  
+  .blogText span{
+    color: navy;
+  }
+  .blog-con{
+    padding-top: 2rem;
+  }
+  .card {
+    transition: 2s;
+    box-shadow: 0 0px 20px -2px #1f2235;
+  }
+  .card:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+  .card-body a {
+    color: white;
+    background-color: navy; 
+  }
+  
+  .card-body a:hover {
+    background-color: transparent;
+    border: solid 1px navy !important;
+  }

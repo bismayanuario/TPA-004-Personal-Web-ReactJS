@@ -1,0 +1,26 @@
+
+img{
+    width: 80%;
+}
+.about {
+    background-color: black;
+    transition: 2s;
+    padding-bottom: 3rem;
+}
+.aboutTextPart {
+    display: flex;
+    align-items: center;
+}
+.aboutTextPart a{
+    text-decoration: none;
+    color: white;
+}
+.downloadcvbtn  {
+    color: white;
+    background-color: navy ;
+}
+.downloadcvbtn:hover {
+    background-color: transparent;
+    color: white;
+    border: 1px solid navy !important;
+}
